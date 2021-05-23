@@ -75,6 +75,7 @@ public interface ClaimAccessor {
 	 */
 	@Deprecated
 	default Boolean containsClaim(String claim) {
+System.out.print("testy")
 		return hasClaim(claim);
 	}
 
